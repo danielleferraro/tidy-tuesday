@@ -1,2 +1,2 @@
 # tidy-tuesday
-Tidy tuesday endeavours
+A repo to store my R4DS TidyTuesday endeavours!
