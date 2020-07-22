@@ -48,7 +48,7 @@ ggplot(data = animal_complaints_data, aes(x = month_short, y = n, color = compla
   labs(x = NULL,
        y = "Number of complaints", 
        color = "Complaint type",
-       title = "Seasonal dog complaints in Australia",
+       title = "Seasonal dog complaints in Australia, 2013-2020",
        caption = "Data: Townsville City Council Animal Complaints\nFigure by @dm_ferraro for #TidyTuesday") +
   cowplot::theme_minimal_hgrid() +
   theme(axis.line.x = element_blank(),
