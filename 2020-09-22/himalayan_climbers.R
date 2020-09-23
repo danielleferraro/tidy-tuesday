@@ -36,17 +36,11 @@ top_peaks <- members %>%
 )
 
 # Set palette
-cols <- paletteer_d("futurevisions::cancri")[c(1,3:5)]
 cols <- paletteer_d("wesanderson::Zissou1")
-
-note <- str_wrap("In 1959, Cho Oyu was the first peak to have women make up over 50% of its expedition members that year", 25)
 
 # Plot
 ggplot(prop_women, aes(x = year, y = factor(peak_name, levels = rev(top_peaks)))) +
-  # geom_curve(x = 1942, xend = 1958.5, y = 18, yend = 18.7, angle = -40, color = "white", arrow = arrow(length = unit(1.5, "mm"))) +
-  # geom_curve(x = 1935, xend = 1975, y = 15, yend = 19.5, angle = -40, color = "white", arrow = arrow(length = unit(1.5, "mm"))) +
   geom_point(aes(size = total_peeps, color = prop_F), alpha = 0.7) +
-  #annotate(geom = "text", x = 1918, y = 17.2, hjust = 0, color = "white", label = note, family = "ArialNarrow") +
   scale_color_stepsn(colors = cols, n.breaks = 4, labels = scales::percent_format(accuracy = 1)) +
   scale_x_continuous(breaks = seq(1900, 2010, by = 10)) +
   labs(x = NULL,
