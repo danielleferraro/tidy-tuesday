@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+
+</head>
+<body>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#xddgvouzjh .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #F3F6F7;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_heading {
+  background-color: #F3F6F7;
+  text-align: center;
+  border-bottom-color: #F3F6F7;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #F3F6F7;
+  border-bottom-width: 0;
+}
+
+#xddgvouzjh .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #F3F6F7;
+  border-top-width: 0;
+}
+
+#xddgvouzjh .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_col_heading {
+  color: #333333;
+  background-color: #F3F6F7;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#xddgvouzjh .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #F3F6F7;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#xddgvouzjh .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#xddgvouzjh .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#xddgvouzjh .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#xddgvouzjh .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #F3F6F7;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#xddgvouzjh .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #F3F6F7;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#xddgvouzjh .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#xddgvouzjh .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#xddgvouzjh .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#xddgvouzjh .gt_stub {
+  color: #333333;
+  background-color: #F3F6F7;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#xddgvouzjh .gt_summary_row {
+  color: #333333;
+  background-color: #F3F6F7;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xddgvouzjh .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_grand_summary_row {
+  color: #333333;
+  background-color: #F3F6F7;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xddgvouzjh .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#xddgvouzjh .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_footnotes {
+  color: #333333;
+  background-color: #F3F6F7;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#xddgvouzjh .gt_sourcenotes {
+  color: #333333;
+  background-color: #F3F6F7;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#xddgvouzjh .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#xddgvouzjh .gt_left {
+  text-align: left;
+}
+
+#xddgvouzjh .gt_center {
+  text-align: center;
+}
+
+#xddgvouzjh .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#xddgvouzjh .gt_font_normal {
+  font-weight: normal;
+}
+
+#xddgvouzjh .gt_font_bold {
+  font-weight: bold;
+}
+
+#xddgvouzjh .gt_font_italic {
+  font-style: italic;
+}
+
+#xddgvouzjh .gt_super {
+  font-size: 65%;
+}
+
+#xddgvouzjh .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="xddgvouzjh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <th colspan="4" class="gt_heading gt_title gt_font_normal" style="background-color: #95AFBA; font-weight: bold;"><strong>Employed persons by industry and race in 2020</strong></th>
+    </tr>
+    <tr>
+      <th colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style></th>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_center gt_columns_bottom_border" rowspan="2" colspan="1"><strong>Industry</strong></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="3">
+        <span class="gt_column_spanner">Number of people (x 1 million)</span>
+      </th>
+    </tr>
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>White</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Black or<br>African American</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Asian</strong></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Education and health services</td>
+      <td class="gt_row gt_left">25.82 (78%)</td>
+      <td class="gt_row gt_left">5.05 (15%)</td>
+      <td class="gt_row gt_left">2.13 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Professional and business services</td>
+      <td class="gt_row gt_left">14.60 (80%)</td>
+      <td class="gt_row gt_left">1.87 (10%)</td>
+      <td class="gt_row gt_left">1.79 (10%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Wholesale and retail trade</td>
+      <td class="gt_row gt_left">14.91 (82%)</td>
+      <td class="gt_row gt_left">2.23 (12%)</td>
+      <td class="gt_row gt_left">1.08 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Retail trade</td>
+      <td class="gt_row gt_left">12.11 (81%)</td>
+      <td class="gt_row gt_left">1.94 (13%)</td>
+      <td class="gt_row gt_left">0.90 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Manufacturing</td>
+      <td class="gt_row gt_left">11.60 (82%)</td>
+      <td class="gt_row gt_left">1.49 (11%)</td>
+      <td class="gt_row gt_left">1.02 (7%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Leisure and hospitality</td>
+      <td class="gt_row gt_left">8.69 (80%)</td>
+      <td class="gt_row gt_left">1.46 (13%)</td>
+      <td class="gt_row gt_left">0.73 (7%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Construction</td>
+      <td class="gt_row gt_left">9.55 (92%)</td>
+      <td class="gt_row gt_left">0.65 (6%)</td>
+      <td class="gt_row gt_left">0.22 (2%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Financial activities</td>
+      <td class="gt_row gt_left">8.43 (81%)</td>
+      <td class="gt_row gt_left">1.12 (11%)</td>
+      <td class="gt_row gt_left">0.84 (8%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Durable goods</td>
+      <td class="gt_row gt_left">7.33 (83%)</td>
+      <td class="gt_row gt_left">0.87 (10%)</td>
+      <td class="gt_row gt_left">0.68 (8%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Transportation and utilities</td>
+      <td class="gt_row gt_left">6.20 (75%)</td>
+      <td class="gt_row gt_left">1.60 (19%)</td>
+      <td class="gt_row gt_left">0.46 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Public administration</td>
+      <td class="gt_row gt_left">5.50 (77%)</td>
+      <td class="gt_row gt_left">1.31 (18%)</td>
+      <td class="gt_row gt_left">0.34 (5%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Other services</td>
+      <td class="gt_row gt_left">5.30 (81%)</td>
+      <td class="gt_row gt_left">0.69 (11%)</td>
+      <td class="gt_row gt_left">0.52 (8%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Other services, except private households</td>
+      <td class="gt_row gt_left">4.77 (81%)</td>
+      <td class="gt_row gt_left">0.63 (11%)</td>
+      <td class="gt_row gt_left">0.48 (8%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Nondurable goods</td>
+      <td class="gt_row gt_left">4.27 (81%)</td>
+      <td class="gt_row gt_left">0.63 (12%)</td>
+      <td class="gt_row gt_left">0.35 (7%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Wholesale trade</td>
+      <td class="gt_row gt_left">2.80 (85%)</td>
+      <td class="gt_row gt_left">0.30 (9%)</td>
+      <td class="gt_row gt_left">0.18 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Information</td>
+      <td class="gt_row gt_left">1.98 (78%)</td>
+      <td class="gt_row gt_left">0.30 (12%)</td>
+      <td class="gt_row gt_left">0.25 (10%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Agriculture and related</td>
+      <td class="gt_row gt_left">2.17 (96%)</td>
+      <td class="gt_row gt_left">0.07 (3%)</td>
+      <td class="gt_row gt_left">0.03 (1%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Mining, quarrying, and oil and gas extraction</td>
+      <td class="gt_row gt_left">0.60 (91%)</td>
+      <td class="gt_row gt_left">0.03 (5%)</td>
+      <td class="gt_row gt_left">0.03 (4%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Private households</td>
+      <td class="gt_row gt_left">0.52 (84%)</td>
+      <td class="gt_row gt_left">0.06 (10%)</td>
+      <td class="gt_row gt_left">0.04 (6%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="background-color: #95AFBA; font-weight: bold;">Total</td>
+      <td class="gt_row gt_left" style="background-color: #95AFBA; font-weight: bold;">147 (81%)</td>
+      <td class="gt_row gt_left" style="background-color: #95AFBA; font-weight: bold;">22 (12%)</td>
+      <td class="gt_row gt_left" style="background-color: #95AFBA; font-weight: bold;">12 (7%)</td>
+    </tr>
+  </tbody>
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="4">Data: U.S. Bureau of Labor Statistics</td>
+    </tr>
+    <tr>
+      <td class="gt_sourcenote" colspan="4">Table by @dm_ferraro for #TidyTuesday</td>
+    </tr>
+  </tfoot>
+  
+</table></div>
+</body>
+</html>
