@@ -59,7 +59,6 @@ ggplot(data = catches_per_character, aes(fill = fct_relevel(catcher, levels = ca
   labs(title = "Zoinks!",
        subtitle = "Who caught the most monsters on Scooby Doo?",
        fill = NULL) +
-  theme_void(base_size = 14) +
   theme_enhance_waffle() +
   theme(legend.position = "top",
         plot.title = element_text(hjust = 0.5,
@@ -67,7 +66,9 @@ ggplot(data = catches_per_character, aes(fill = fct_relevel(catcher, levels = ca
                                   family = "Shrikhand",
                                   size = 20),
         plot.subtitle = element_text(hjust = 0.5,
-                                  margin = margin(0,0,15,0))) +
+                                  margin = margin(0,0,15,0)),
+        panel.background = element_rect(fill = "white"),
+        axis.ticks = element_blank()) +
   guides(fill = guide_legend(nrow = 1))
 
 # Save
